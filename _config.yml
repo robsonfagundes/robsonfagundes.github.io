@@ -6,7 +6,8 @@ gems:
   
 # Site settings
 title: "robson fagundes"
-description: > Junior Software Engineer 
+description: > # this means to ignore newlines until "email:"
+   Junior Software Engineer 
 
 email: robsonfagundes@gmail.com
 #blog logo
