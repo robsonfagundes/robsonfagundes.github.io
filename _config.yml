@@ -6,18 +6,17 @@ gems:
   
 # Site settings
 title: "robson fagundes"
-description: > # Todos os seres humanos têm três vidas: a pública, a privada, e a secreta." Gabriel García Márquez "email:"
-   A Jekyll theme - Medium inspired
+description: > Junior Software Engineer 
 
 email: robsonfagundes@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/me.png"
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
 
 name: 'Robson Fagundes'
 author: 'Robson Fagundes'
-author_image: "/assets/images/author.jpg"
+author_image: "/assets/images/author.png"
 
 paginate:	5
 
