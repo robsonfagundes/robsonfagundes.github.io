@@ -1,4 +1,7 @@
-# robsonfagundes.github.io
+robsonfagundes.github.io
+================
+Hi I'm Robson Fagundes Junior Software Engineer, Specialist in project and development of systems for internet environment.
+
 My blog on GitHub Pages and inspired Jekyll blog theme. 
 
 You can **download** the theme here:
