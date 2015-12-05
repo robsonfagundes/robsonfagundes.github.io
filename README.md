@@ -12,6 +12,6 @@ This [**page**](http://robsonfagundes.github.io) was created on GitHub Pages wit
 You can **download** the theme here:
 [https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
 
-For **install** jekyll on github pages see: [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages) 
+For **install** jekyll: [https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages) 
 
-For **use** jekyll on github pages see: [http://jekyllrb.com/docs/home/](http://jekyllrb.com/docs/home) 
+For **use** jekyll on github pages: [http://jekyllrb.com/docs/home/](http://jekyllrb.com/docs/home) 
