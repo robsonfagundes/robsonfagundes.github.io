@@ -6,8 +6,8 @@ categories: feature
 tags: featured
 image: /assets/article_images/jekyll.jpg
 ---
-GitHub Pages + Jekyll = [:)]
-================
+#GitHub Pages + Jekyll = [:)]
+
 >####Learn how GitHub and Jekyll works and how they can help you make static websites without database and easier to manage.
 
 What are GitHub Pages?
