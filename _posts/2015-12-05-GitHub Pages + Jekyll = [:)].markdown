@@ -62,5 +62,5 @@ permalink: /about/
 ####Directory structure
 The whole thing is very simple: all the file that you have _ (underscore) in front of the name, Jekyll will ignore in the final package, when you convert your project. See a structure of one of our projects:
 
-![alt text](https://github.com/robsonfagundes/robsonfagundes.github.io/blob/master/assets/images/structure.png "Directory structure")
+[Structure](https://github.com/robsonfagundes/robsonfagundes.github.io/blob/master/assets/images/structure.png)
 
