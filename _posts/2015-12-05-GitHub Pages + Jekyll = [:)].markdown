@@ -52,7 +52,7 @@ The YAML format is known for ease of reading. It is designed to be easy to under
 ####As somethings work
 Any file that contains a YAML block - the Jekyll staff calls front-matter - will be treated as a special file. The front-matter must be the first thing in the file and must be a valid YAML format. Every page of your website done in Jekyll must start with this structure:
 
-```lang-yaml
+```yaml
 ---
 layout: page
 title: About Page
