@@ -25,13 +25,11 @@ Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so y
 
 What is Jekyll?
 ----------------  
-
 The Jekyll is a generator of static code. The idea is that you create pages and even a statically blog using HTML with a few tricks that will help you convert your website into static files, ready to be published.
 It is based on various formats like [Markdown](https://en.wikipedia.org/wiki/Markdown) formatting to text and posts and a template pattern called Liquid with a bit of [YAML](yaml.org) to view and save the data of the variables.
 
 Using Jekyll
 ----------------  
-
 Every GitHub Page runs through Jekyll when you push content to a specially named branch within your repository. Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.
 
 Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
@@ -43,7 +41,6 @@ We highly recommend installing Jekyll on your computer to preview your site and 
 
 Code Structure
 ----------------  
-
 The code structure of the files is very simple to understand, but for some it can be a bit strange not to have familiarity with data structures such as YAML. But it is simple and you learn fast, I'm sure. Continue reading for you to see how easy it is.
 
 ####Without Database
@@ -55,7 +52,7 @@ The YAML format is known for ease of reading. It is designed to be easy to under
 ####As somethings work
 Any file that contains a YAML block - the Jekyll staff calls front-matter - will be treated as a special file. The front-matter must be the first thing in the file and must be a valid YAML format. Every page of your website done in Jekyll must start with this structure:
 
-```
+```lang-yaml
 ---
 layout: page
 title: About Page
