@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "email:"
 
 email: robsonfagundes@gmail.com
 #blog logo
-logo: "/assets/images/me1.jpg"
+logo: "/assets/images/home1.png"
 # blog cover
 cover: "/assets/images/git.jpg"
 

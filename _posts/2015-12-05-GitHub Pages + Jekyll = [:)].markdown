@@ -36,4 +36,4 @@ Every GitHub Page runs through Jekyll when you push content to a specially named
 
 Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
 
->Learn more about Jekyll [https://jekyllrb.com/docs/home/(https://jekyllrb.com/docs/home/)
+>Learn more about Jekyll [https://jekyllrb.com/docs/home](https://jekyllrb.com/docs/home/)
