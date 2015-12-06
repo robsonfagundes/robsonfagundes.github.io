@@ -12,6 +12,7 @@ image: /assets/article_images/jekyll.jpg
 
 What are GitHub Pages?
 ----------------
+
 GitHub Pages are public webpages hosted and published through our site. User, Organization, and Project Pages. There are two basic types of GitHub Pages: User/Organization Pages and Project Pages. They are nearly identical, but there are a few important differences between them.
 
 - User & Organization Pages live in a special repository dedicated to GitHub Pages files. You will need to name this repository with the account name.
@@ -22,7 +23,6 @@ GitHub Pages are public webpages hosted and published through our site. User, Or
 Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free—custom domain name and all.
 
 >Learn more about GitHub Pages [https://pages.github.com](https://pages.github.com)
-
 
 What is Jekyll?
 ----------------
