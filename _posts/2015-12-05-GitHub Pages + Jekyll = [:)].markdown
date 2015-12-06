@@ -8,15 +8,15 @@ image: /assets/article_images/jekyll.jpg
 ---
 GitHub Pages + Jekyll = [:)]
 ================
-Learn how GitHub and Jekyll works and how they can help you make static websites without database and easier to manage.
+>Learn how GitHub and Jekyll works and how they can help you make static websites without database and easier to manage.
 
 What are GitHub Pages?
 ----------------
-GitHub Pages are public webpages hosted and published through our site. User, Organization, and Project Pages. There are two basic types of GitHub Pages: User/Organization Pages and Project Pages. They are nearly identical, but there are a few important differences between them.
+>GitHub Pages are public webpages hosted and published through our site. User, Organization, and Project Pages. There are two basic types of GitHub Pages: User/Organization Pages and Project Pages. They are nearly identical, but there are a few important differences between them.
 
-- User & Organization Pages live in a special repository dedicated to GitHub Pages files. You will need to name this repository with the account name.
+> User & Organization Pages live in a special repository dedicated to GitHub Pages files. You will need to name this repository with the account name.
 
-- Unlike User and Organization Pages, Project Pages are kept in the same repository as their project. Both personal accounts and organizations can create Project Pages.
+> Unlike User and Organization Pages, Project Pages are kept in the same repository as their project. Both personal accounts and organizations can create Project Pages.
 
 see more about [https://help.github.com/articles/user-organization-and-project-pages/](https://help.github.com/articles/user-organization-and-project-pages/)
 
