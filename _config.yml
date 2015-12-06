@@ -10,8 +10,13 @@ description: > # this means to ignore newlines until "email:"
   Junior Software Engineer, drummer, a good lover of craft beers and Rock N Roll.
 
 email: robsonfagundes@gmail.com
+
 #blog logo
-logo: "/assets/images/home1.png"
+logo: "/assets/images/me1.jpg"
+
+#home logo
+home: "/assets/images/home1.png"
+
 # blog cover
 cover: "/assets/images/git.jpg"
 
