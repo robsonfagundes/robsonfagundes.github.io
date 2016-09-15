@@ -15,7 +15,7 @@ I have experience in developing web and mobile applications with emphasis in agi
 
 Java (JEE) programmer since 2006, I am passionate about what I do. Currently I have devoted myself to the study the functional programming languages with Scala and JavaScript.  
 
-In addition to working with the Java stack I seek also to learn others development stacks, nowadays I'm learning the stack MEAN (MongoDB, Express, Angular and Node) and React with Redux. [http://robsonfagundes.github.io/about/](http://robsonfagundes.github.io/about/)  
+In addition to working with the Java stack I seek also to learn others development stacks, nowadays I'm learning others stacks: MEAN (MongoDB, Express, Angular and Node) and React with Redux.
 
 [See more about my skills](https://br.linkedin.com/in/robson-adão-fagundes-7b7a2216)  
 
