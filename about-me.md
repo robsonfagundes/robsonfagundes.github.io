@@ -4,10 +4,10 @@ title: Who I am
 permalink: /about-me/
 ---
 
-Hi I'm Robson Fagundes Junior Software Engineer, drummer, a good lover of craft beers and Rock'N Roll.  
+Hi I'm Robson Fagundes Software Engineer - Full Stack Web Developer, Specialist in project and development of applications for environment web and mobile. Drummer, a good lover of craft beers and Rock'N Roll.
 ---------------
     
-Specialist in project and development of applications for environment internet and mobile.  
+Specialist in project and development of applications for environment web and mobile.  
 
 I have experience in developing web and mobile applications with emphasis in agile methods, design patterns, frameworks, front-end, back-end, devops and web security.  
 
