@@ -5,9 +5,9 @@ gems:
   - jemoji
   
 # Site settings
-title: "robson fagundes"
+title: "Robson Fagundes"
 description: > # this means to ignore newlines until "email:"
-  Robson Fagundes, Software Engineer - Full Stack Web Developer
+  Software Engineer - Full Stack Web Developer
 
 email: robsonfagundes@gmail.com
 
