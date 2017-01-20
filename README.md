@@ -4,7 +4,16 @@ robsonfagundes.github.io
 
 About this page:
 ----------------
-I created this [**page**](http://robsonfagundes.github.io) with the objective of show my skills learned on classes the [**Webschool.io**](https://github.com/Webschool-io) be-mean-instagram course. See more about be-mean-instagram course here [https://github.com/Webschool-io/be-mean-instagram](https://github.com/Webschool-io/be-mean-instagram)
+I created this [**page**](http://robsonfagundes.github.io) with the objective of show my skills learned working with a JavaScript for environments web and mobile. 
+
+Here you can find posts about:
+
+ -   JavaScript Hacks, tips on the technology.
+ -   Full stack JavaScript developer: MEAN (MongoDB, Express, Angular and Node).
+ -   JavaScript library for building user interfaces with React and Redux.
+ -   Web Components with Polyfills, CustomElements, Polymer.
+ -   Functional programming with JavaScript.
+
 
 GitHub Pages + Jekyll = [:)]
 ----------------
