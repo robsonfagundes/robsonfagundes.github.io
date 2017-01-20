@@ -16,7 +16,6 @@ There are several places we can use an IIFE, but the most common is when we want
 
 ###### Example:
 
-
 ```javascript
 
 (function () {
@@ -62,5 +61,4 @@ In the second parentheses, where we invoke the function, we can pass any paramet
 // Log 'hi there what's up'
 
 ```
-
 These variables sent will be treated as scope variables of that function and will only be accessible within it, which allows IIFE to use variables in a script without interfering with others.
