@@ -9,6 +9,8 @@ image: /assets/article_images/jslogo.png
 
 JS Hack - Calculating Age
 ----------------  
+In this post I will share an extremely useful hack to apply in JavaScript.
+If you ever need to create a function that calculates age based on a date of birth, I recommend that you use this function that makes an extremely performative spell:
 
-GitHub Pages are public webpages hosted and published through our site. User, Organization, and Project Pages. There are two basic types of GitHub Pages: User/Organization Pages and Project Pages. They are nearly identical, but there are a few important differences between them.
+
 
