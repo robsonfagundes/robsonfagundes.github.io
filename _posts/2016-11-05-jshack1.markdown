@@ -6,9 +6,6 @@ categories: feature
 tags: featured
 image: /assets/article_images/jslogo.png
 ---
-#JS Hack - Calculating Age
-
->####Learn how GitHub and Jekyll works and how they can help you make static websites without database and easier to manage.
 
 JS Hack - Calculating Age
 ----------------  
