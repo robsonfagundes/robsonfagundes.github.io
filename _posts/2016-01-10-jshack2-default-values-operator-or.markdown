@@ -2,8 +2,8 @@
 layout: post
 title:  "JS Hack - Default value with logical operator ||"
 date:   2016-01-10 13:30:05
-categories: feature
-tags: featured
+categories: javascript
+tags: js,hack, default-value
 image: /assets/article_images/machine.jpg
 ---
 
