@@ -7,7 +7,8 @@ permalink: /about/
 About this page:
 ----------------
 
-**Why I made this page**? I created this [**page**](http://robsonfagundes.github.io) with the objective of show my skills learned on classes the [**Webschool.io**](https://github.com/Webschool-io) be-mean-instagram course. See more about be-mean-instagram course here [https://github.com/Webschool-io/be-mean-instagram](https://github.com/Webschool-io/be-mean-instagram)  
+**Why I made this page**? I created this [**page**](http://robsonfagundes.github.io) with the objective of show my skills learned working with a JavaScript for environments web and mobile.
+
 
 GitHub Pages + Jekyll = [:)]
 ----------------
