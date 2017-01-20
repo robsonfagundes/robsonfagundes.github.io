@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "email:"
 email: robsonfagundes@gmail.com
 
 #blog logo
-logo: "/assets/images/me1.jpg"
+logo: "/assets/images/author.png"
 
 #home logo
 home: "/assets/images/home1.png"
@@ -22,7 +22,7 @@ cover: "/assets/images/git.jpg"
 
 name: 'Robson Fagundes'
 author: 'Robson Fagundes'
-author_image: "/assets/images/me1.jpg"
+author_image: "/assets/images/author.png"
 
 paginate:	5
 
