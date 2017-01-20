@@ -12,5 +12,11 @@ JS Hack - Calculating Age
 In this post I will share an extremely useful hack to apply in JavaScript.
 If you ever need to create a function that calculates age based on a date of birth, I recommend that you use this function that makes an extremely performative spell:
 
+- function calculating age
+> function calcAge(dateString) {
+>   var birthday = +new Date(dateString);
+>   return ~~((Date.now() - birthday) / (31557600000));
+> }
+
 
 
