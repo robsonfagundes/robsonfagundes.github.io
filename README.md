@@ -1,6 +1,6 @@
 robsonfagundes.github.io
 ================
-[**Robson Fagundes**](http://robsonfagundes.github.io) Software Engineer - Full Stack Web Developer, Specialist in project and development of applications for environment web and mobile. Drummer, a good lover of craft beers and rock'n roll.
+[**Robson Fagundes**](https://github.com/robsonfagundes) Software Engineer - Full Stack Web Developer, Specialist in project and development of applications for environment web and mobile. Drummer, a good lover of craft beers and rock'n roll.
 
 About this page:
 ----------------
