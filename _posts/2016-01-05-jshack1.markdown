@@ -2,8 +2,8 @@
 layout: post
 title:  "JS Hack - Calculating Age"
 date:   2016-01-05 08:01:05
-categories: feature
-tags: featured
+categories: javascript
+tags: js, hack, date
 image: /assets/article_images/jslogo.png
 ---
 
