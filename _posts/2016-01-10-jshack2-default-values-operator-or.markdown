@@ -9,7 +9,6 @@ image: /assets/article_images/machine.jpg
 
 JS Hack - Default value with logical operator || 
 ----------------  
-
 In this post I will share another useful hack to use in JavaScript. When you have an object that needs default values when no parameter is passed to it, you can use the logical operator || To check whether the valid constructor parameters will be used or whether a default value will be used, for example:
 
 ```javascript
