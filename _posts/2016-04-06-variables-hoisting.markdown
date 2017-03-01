@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JavaScript Variables - Hoisting."
-date:   2016-03-01 11:59:11
+date:   2016-04-06 11:59:11
 categories: javascript variables
 tags: featured
 image: /assets/article_images/hosting.jpg
