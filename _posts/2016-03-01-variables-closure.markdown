@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "JavaScript Variables - Global variables can be made local (private) with closures."
+title:  "JavaScript Variables - Closures."
 date:   2016-03-01 11:59:11
 categories: javascript variables
 tags: featured
