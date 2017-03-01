@@ -4,7 +4,7 @@ title:  "JavaScript Variables - Hoisting."
 date:   2016-03-01 11:59:11
 categories: javascript variables
 tags: featured
-image: /assets/article_images/hosting.jng
+image: /assets/article_images/hosting.jpg
 ---
 
 JavaScript Variables - Hoisting.
@@ -22,9 +22,9 @@ JavaScript does just that, what we call Hoisting.
 
 ```javascript
 
-var a, foo = 'bar';
-var bar = function() {
-	var foo = 'foo';
+let a, foo = 'bar';
+let bar = function() {
+	let foo = 'foo';
 	console.log('local: ' + foo);
 };
 bar();
