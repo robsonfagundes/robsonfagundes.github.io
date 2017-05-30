@@ -24,4 +24,4 @@ In addition to working with the Java and JavaScript stack, I seek also to learn 
  -   Web Security, Hacking and Pentest with Python.
 
 
-[See more about my skills](https://br.linkedin.com/in/robson-adão-fagundes-7b7a2216)  
+[See more about my skills](https://www.linkedin.com/in/robson-fagundes-7b7a2216)  
