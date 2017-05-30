@@ -11,11 +11,11 @@ Specialist in project and development of applications for environment web and mo
 
 I have experience in developing web and mobile applications with emphasis in agile methods, design patterns, frameworks, front-end, back-end, devops and web security.  
 
-Java (JEE) programmer since 2006 and JavaScript (MEAN) since 2014, I am passionate about what I do. Currently I have devoted myself to the study the functional programming languages with Scala and JavaScript.  
+I'm Java (JEE) developer since 2006 and Working with JavaScript I've been programming with the MEAN stack since 2014, I am passionate about what I do. Currently I have devoted myself to the study the functional programming languages with Scala and JavaScript.  
 
 In addition to working with the Java and JavaScript stack, I seek also to learn others development stacks, nowadays I'm learning and working with others stacks as:
 
- -   Full stack JavaScript developer: MEAN (MongoDB, Express, Angular and Node).
+ -   .
  -   JavaScript library for building user interfaces with React and Redux.
  -   Web Components with Polyfills, CustomElements, Polymer.
 
