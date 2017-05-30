@@ -13,10 +13,10 @@ I have experience in developing web and mobile applications with emphasis in agi
 
 Java (JEE) developer since 2006 and JavaScript developer, I've been programming with the MEAN stack since 2014.
 
-I'm passionate about what I do, currently I have been devoted myself to the study of functional programming languages with Scala and JavaScript, web security with Python, and to my startup R-Dicom. 
+I'm passionate about what I do, currently I have been devoted myself to the study of functional programming languages with Scala and JavaScript, web security with Python, and to my startup [R-Dicom.](https://rdicom.com.br)
+
 In addition to working with the Java and JavaScript stack, I seek also to learn others development stacks, nowadays I'm learning and working with others stacks as:
 
- -   .
  -   JavaScript library for building user interfaces with React and Redux.
  -   Web Components with Polyfills, CustomElements, Polymer.
 
