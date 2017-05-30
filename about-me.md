@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Who I am !!!
+title: Who I am
 permalink: /about-me/
 ---
 
@@ -14,7 +14,7 @@ I have experience in developing web and mobile applications with emphasis in agi
 
 Java (JEE) developer since 2006 and JavaScript developer, I've been programming with the MEAN stack since 2014. I've been programming too using Google Firebase, for authentication, real database, storage and hosting. [See app example with AngularJS & Firebase](https://github.com/robsonfagundes/angular-firebase-web-app).
 
-I'm passionate about what I do, currently I have been devoted myself to the study of functional programming languages with Scala and JavaScript, web security with Python, and to my startup [R-Dicom.](https://rdicom.com.br)
+I'm passionate about what I do, currently I have been devoted myself to the study of functional programming languages with Scala and JavaScript, web security with Python, and to my Startup [R-Dicom.](https://rdicom.com.br)
 
 In addition to working with the Java and JavaScript stack, I seek also to learn others development stacks, nowadays I'm learning and working with others stacks as:
 
@@ -25,5 +25,3 @@ In addition to working with the Java and JavaScript stack, I seek also to learn 
 
 
 [See more about my skills](https://br.linkedin.com/in/robson-adão-fagundes-7b7a2216)  
-
-

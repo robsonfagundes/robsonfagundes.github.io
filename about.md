@@ -11,10 +11,8 @@ About this page:
 
  -   JavaScript Hacks, tips on the technology.
  -   Full stack JavaScript developer: MEAN (MongoDB, Express, Angular and Node).
- -   JavaScript library for building user interfaces with React and Redux.
  -   Web Components with Polyfills, CustomElements, Polymer.
  -   Functional programming with JavaScript.
-
 
 GitHub Pages + Jekyll = [:)]
 ----------------
