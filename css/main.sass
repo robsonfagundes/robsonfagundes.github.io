@@ -736,30 +736,37 @@ pre
     background: #9d65e4
 
 .portfolio-hero-panel
-  display: grid
-  gap: 14px
-  padding: 22px
+  overflow: hidden
+  padding: 16px
   border: 1px solid rgba(245, 245, 247, 0.11)
   border-radius: 8px
   background: rgba(15, 15, 23, 0.72)
   box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35)
-
-.portfolio-signal
-  padding: 18px
-  border: 1px solid rgba(245, 245, 247, 0.09)
-  border-radius: 8px
-  background: linear-gradient(135deg, rgba(23, 23, 37, 0.95), rgba(68, 37, 125, 0.34))
-  span
+  img
     display: block
-    margin-bottom: 4px
-    color: #a8a8b3
+    width: 100%
+    height: auto
+    border-radius: 6px
+    filter: drop-shadow(0 22px 34px rgba(0, 0, 0, 0.34))
+
+.portfolio-hero-panel-caption
+  display: flex
+  flex-wrap: wrap
+  gap: 8px
+  margin-top: 14px
+  span
+    display: inline-flex
+    align-items: center
+    gap: 7px
+    padding: 8px 10px
+    border: 1px solid rgba(245, 245, 247, 0.09)
+    border-radius: 6px
+    background: rgba(255, 255, 255, 0.06)
+    color: #f5f5f7
     font-size: 13px
     font-weight: 700
-    text-transform: uppercase
-  strong
-    display: block
-    color: #ffffff
-    font-size: 18px
+  i
+    color: #bca7ff
 
 .portfolio-section
   padding: 78px 0
@@ -819,6 +826,55 @@ pre
   p
     margin: 0
     font-size: 16px
+
+.portfolio-card-icon
+  display: inline-flex
+  width: 42px
+  height: 42px
+  align-items: center
+  justify-content: center
+  margin-bottom: 18px
+  border: 1px solid rgba(124, 92, 255, 0.34)
+  border-radius: 8px
+  background: linear-gradient(135deg, rgba(134, 60, 215, 0.28), rgba(124, 92, 255, 0.12))
+  color: #f5f5f7
+  font-size: 18px
+
+.portfolio-visual-section
+  background: radial-gradient(circle at 85% 10%, rgba(124, 92, 255, 0.22), transparent 32%), #0f0f17
+
+.portfolio-visual-grid
+  align-items: center
+
+.portfolio-feature-list
+  display: grid
+  gap: 12px
+  margin: 26px 0 0
+  padding: 0
+  list-style: none
+  li
+    display: flex
+    gap: 10px
+    align-items: flex-start
+    color: #d7d7df
+    font-size: 16px
+  i
+    margin-top: 5px
+    color: #7c5cff
+
+.portfolio-device-shot
+  margin: 0
+  img
+    display: block
+    width: 100%
+    height: auto
+    border-radius: 8px
+    filter: drop-shadow(0 24px 44px rgba(0, 0, 0, 0.42))
+  figcaption
+    margin-top: 10px
+    color: #a8a8b3
+    font-size: 13px
+    text-align: center
 
 .portfolio-two-column
   display: grid
@@ -884,6 +940,14 @@ pre
     font-weight: 700
 
 .portfolio-project
+  img
+    display: block
+    width: 100%
+    aspect-ratio: 16 / 9
+    object-fit: contain
+    margin: -6px 0 20px
+    border-radius: 6px
+    background: linear-gradient(135deg, rgba(15, 15, 23, 0.94), rgba(68, 37, 125, 0.22))
   a
     display: inline-block
     margin-top: 18px
