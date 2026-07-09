@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body class="portfolio-page">
+    <a class="portfolio-skip-link" href="#content">Skip to content</a>
+    {{ content }}
+    <footer class="portfolio-footer">
+      <div class="portfolio-container portfolio-footer-inner">
+        <p>Robson Fagundes &copy; {{ site.time | date: '%Y' }}</p>
+        <p>Software Engineer &bull; Founder &bull; AI Software Engineer</p>
+        <nav aria-label="Footer links">
+          <a href="{{ site.github_url }}">GitHub</a>
+          <a href="{{ site.linkedin_url }}">LinkedIn</a>
+          <a href="{{ site.lattes_url }}">Lattes</a>
+          <a href="{{ site.rdicom_url }}">Rdicom</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

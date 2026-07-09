@@ -1,26 +1,42 @@
 robsonfagundes.github.io
-================
-[**Robson Fagundes**](https://github.com/robsonfagundes) Software Engineer - Full Stack Web Developer, Specialist in project and development of applications for environment web and mobile. Drummer, a good lover of craft beers and rock'n roll.
+========================
 
-About this page:
-----------------
-I created this [**page**](http://robsonfagundes.github.io) with the objective of show my skills learned working with a JavaScript for environments web and mobile. 
+Personal portfolio and legacy technical blog for [Robson Fagundes](https://github.com/robsonfagundes).
 
-Here you can find posts about:
+The homepage presents Robson as a Software Engineer, entrepreneur, founder of Rdicom and AI Software Engineer focused on HealthTech, PACS, DICOM, cloud platforms, medical imaging workflows, APIs, integrations, databases, automation and software architecture.
 
- -   JavaScript Hacks, tips on the technology.
- -   Full stack JavaScript developer: MEAN (MongoDB, Express, Angular and Node).
- -   JavaScript library for building user interfaces with React and Redux.
- -   Web Components with Polyfills, CustomElements, Polymer.
- -   Functional programming with JavaScript.
+The old JavaScript and web development articles are preserved as legacy technical content under the same Jekyll post structure.
 
+Project structure
+-----------------
 
-GitHub Pages + Jekyll = [:)]
-----------------
-This [**page**](http://robsonfagundes.github.io) was created on GitHub Pages with Jekyll and inspired Jekyll blog theme. 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+- `index.html`: portfolio landing page content.
+- `_layouts/portfolio.html`: dedicated homepage layout.
+- `_layouts/post.html`: legacy blog post layout.
+- `_posts/`: existing technical articles.
+- `css/main.sass`: site styles, including the portfolio theme.
+- `_config.yml`: GitHub Pages and site metadata.
 
-For **install** jekyll on github pages:[https://help.github.com/articles/using-jekyll-with-pages/](https://help.github.com/articles/using-jekyll-with-pages) 
+Running locally
+---------------
 
-For **use** jekyll on github pages: [http://jekyllrb.com/docs/home/](http://jekyllrb.com/docs/home) 
+This site is intentionally simple and compatible with GitHub Pages/Jekyll.
+Ruby 3.x is recommended for local development.
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4000/
+```
+
+Notes
+-----
+
+The site is based on the original GitHub Pages + Jekyll setup inspired by the Mediator theme:
+
+https://github.com/dirkfabisch/mediator

@@ -3,11 +3,16 @@ markdown: kramdown
 highlighter: rouge
 gems:
   - jemoji
+plugins:
+  - jemoji
+  - jekyll-paginate
   
 # Site settings
 title: "Robson Fagundes"
 description: > # this means to ignore newlines until "email:"
-  Software Engineer - Full Stack Web Developer
+  Software Engineer, entrepreneur, founder of Rdicom and AI Software Engineer focused on HealthTech, PACS, DICOM, cloud platforms, APIs, integrations, automation, databases and software architecture.
+
+keywords: "Robson Fagundes, Software Engineer, AI Software Engineer, Rdicom, HealthTech, PACS, DICOM, medical imaging, cloud platforms, APIs, software architecture"
 
 email: robsonfagundes@gmail.com
 
@@ -27,8 +32,13 @@ author_image: "/assets/images/author.png"
 
 paginate:	5
 
-url: "http://robsonfagundes.github.io/" # the base hostname & protocol for your site
-url_about: "http://robsonfagundes.github.io/about-me" 
+url: "https://robsonfagundes.github.io" # the base hostname & protocol for your site
+url_about: "https://robsonfagundes.github.io/about-me"
+
+github_url: "https://github.com/robsonfagundes"
+linkedin_url: "https://br.linkedin.com/in/robson-fagundes-7b7a2216"
+rdicom_url: "https://rdicom.com.br/"
+lattes_url: "https://lattes.cnpq.br/"
 
 baseurl: ""
 #used to display twitter cards

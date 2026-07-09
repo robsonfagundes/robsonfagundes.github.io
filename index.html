@@ -1,74 +1,182 @@
 ---
-layout: default
+layout: portfolio
+title: Robson Fagundes | Software Engineer, Founder and AI Software Engineer
+description: Software Engineer, entrepreneur and founder of Rdicom, building cloud platforms, medical imaging solutions, APIs, integrations and applied AI systems.
 ---
 
-<div class="teaserimage">
-    <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover }})"{% endif %}>
-        Teaser Image
+<section class="portfolio-hero" aria-labelledby="hero-title">
+  <div class="portfolio-container portfolio-hero-grid">
+    <div class="portfolio-hero-copy">
+      <p class="portfolio-kicker">HealthTech • Cloud • DICOM • Applied AI</p>
+      <h1 id="hero-title">Robson Fagundes</h1>
+      <p class="portfolio-subtitle">Software Engineer &bull; Founder &bull; AI Software Engineer</p>
+      <p class="portfolio-tagline">Building cloud platforms, medical imaging solutions and applied AI systems.</p>
+      <p class="portfolio-rdicom">Rdicom — Imagens médicas na nuvem / Medical Imaging in the Cloud</p>
+      <div class="portfolio-actions" aria-label="Professional links">
+        <a class="portfolio-button portfolio-button-primary" href="{{ site.github_url }}">GitHub</a>
+        <a class="portfolio-button" href="{{ site.linkedin_url }}">LinkedIn</a>
+        <a class="portfolio-button" href="{{ site.rdicom_url }}">Rdicom</a>
+        <a class="portfolio-button" href="{{ site.lattes_url }}">Lattes</a>
+      </div>
     </div>
-</div>
-
-<header class="blog-header">
-    {% if site.logo %}
-      <a class="blog-logo" href="{{site.url_about}}" style="background-image: url('{{ site.logo }}')">{{ site.title }}</a>
-    {% endif %}
-    <h1 class="blog-title">{{ site.title }}</h1>
-    <h2 class="blog-description">{{ site.description }}</h2>
-    <div class="custom-links">
-      {% for social in site.social %}
-        {% if social.url %}
-            <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
-              <i class="fa fa-{{ social.icon }}"></i>
-            </a>
-            &nbsp;&nbsp;·&nbsp;
-        {% endif %}
-      {% endfor %}
-      <a href="/about-me/">who I'm</a>  
-      &nbsp;&nbsp;·&nbsp;
-      <a href="/about/">about page</a>
+    <div class="portfolio-hero-panel" aria-label="Professional focus">
+      <div class="portfolio-signal">
+        <span>PACS</span>
+        <strong>DICOM workflows</strong>
+      </div>
+      <div class="portfolio-signal">
+        <span>Cloud</span>
+        <strong>Medical imaging platforms</strong>
+      </div>
+      <div class="portfolio-signal">
+        <span>AI</span>
+        <strong>Applied software engineering</strong>
+      </div>
+      <div class="portfolio-signal">
+        <span>Systems</span>
+        <strong>APIs, data and automation</strong>
+      </div>
     </div>
-</header>
+  </div>
+</section>
 
+<main id="content">
+  <section class="portfolio-section" aria-labelledby="about-title">
+    <div class="portfolio-container portfolio-narrow">
+      <p class="portfolio-section-label">About</p>
+      <h2 id="about-title">Engineering healthcare software for real-world operations.</h2>
+      <p class="portfolio-lead">I am a Software Engineer, entrepreneur and founder of Rdicom, with hands-on experience building real-world systems for healthcare, cloud platforms, APIs, integrations, automation, databases and medical imaging workflows. I also worked for 8 years as a professor in higher education, connecting technical knowledge with practical software development.</p>
+    </div>
+  </section>
 
-<main class="content" role="main">
-
-
-    <h5 class="index-headline featured"><span>Featured</span></h5>
-    <div class="container featured">
-      {% for post in site.tags.featured %}
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
-          <div class="article-item">
-            <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url }}" itemprop="url">{{ post.title }}</a></h2>
-            </header>
-            <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-            </section>
-            <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-  <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
-            </div>
-          </div>
+  <section class="portfolio-section portfolio-section-muted" aria-labelledby="build-title">
+    <div class="portfolio-container">
+      <div class="portfolio-section-heading">
+        <p class="portfolio-section-label">What I Build</p>
+        <h2 id="build-title">Technical areas where software, cloud and healthcare meet.</h2>
+      </div>
+      <div class="portfolio-card-grid">
+        <article class="portfolio-card">
+          <h3>Medical Imaging in the Cloud</h3>
+          <p>Cloud-native platforms for delivering, viewing and managing medical exams.</p>
         </article>
-      {% endfor %}
+        <article class="portfolio-card">
+          <h3>PACS, DICOM and HealthTech</h3>
+          <p>Systems that connect diagnostic imaging workflows, healthcare teams and patients.</p>
+        </article>
+        <article class="portfolio-card">
+          <h3>APIs, Integrations and Automation</h3>
+          <p>Reliable services that move data across products, teams and operational processes.</p>
+        </article>
+        <article class="portfolio-card">
+          <h3>Applied AI for Software Engineering</h3>
+          <p>AI-assisted development, intelligent automation and architecture for practical systems.</p>
+        </article>
+        <article class="portfolio-card">
+          <h3>Cloud Infrastructure and Databases</h3>
+          <p>Backends, persistence layers and infrastructure choices designed for scale and clarity.</p>
+        </article>
+        <article class="portfolio-card">
+          <h3>Intelligent Software Systems</h3>
+          <p>Data-driven products that combine domain knowledge, automation and responsible AI.</p>
+        </article>
+      </div>
     </div>
-    
-    <nav class="pagination" role="navigation">
-      {% if paginator.next_page %}
-        <a class="newer-posts" href="/page{{paginator.next_page}}">&larr; Older posts</a>
-      {% endif %}
-      <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-      {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-          <a class="older-posts" href="/">Newer posts &rarr;</a>
-        {% else %}
-          <a class="older-posts" href="/page{{paginator.previous_page}}">Newer posts &rarr;</a>
-        {% endif %}
-      {% endif %}
-    </nav>
+  </section>
 
+  <section class="portfolio-section" aria-labelledby="journey-title">
+    <div class="portfolio-container portfolio-two-column">
+      <div>
+        <p class="portfolio-section-label">Professional Journey</p>
+        <h2 id="journey-title">A career built across engineering, entrepreneurship and education.</h2>
+      </div>
+      <ol class="portfolio-timeline">
+        <li>
+          <span>Software Engineer</span>
+          <p>Designing and building production systems, APIs, databases and integrations.</p>
+        </li>
+        <li>
+          <span>Founder at Rdicom</span>
+          <p>Leading medical imaging in the cloud through PACS, DICOM and HealthTech products.</p>
+        </li>
+        <li>
+          <span>8 years as professor in higher education</span>
+          <p>Teaching software development while connecting theory, practice and industry context.</p>
+        </li>
+        <li>
+          <span>Postgraduate student in Software Engineering with Applied AI</span>
+          <p>Expanding software architecture and engineering practice with modern AI methods.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
 
-    <!-- {{!! After all the posts, we have the previous/next pagination links }}
-    {{pagination}} -->
+  <section class="portfolio-section portfolio-ai-section" aria-labelledby="ai-title">
+    <div class="portfolio-container portfolio-two-column">
+      <div>
+        <p class="portfolio-section-label">Applied AI Journey</p>
+        <h2 id="ai-title">Postgraduate studies in Software Engineering with Applied AI.</h2>
+      </div>
+      <div class="portfolio-ai-card">
+        <dl class="portfolio-dates">
+          <div>
+            <dt>Started</dt>
+            <dd>May 28, 2026</dd>
+          </div>
+          <div>
+            <dt>Expected completion</dt>
+            <dd>May 2027</dd>
+          </div>
+        </dl>
+        <p>Focus areas include Machine Learning, NLP, MLOps, AI-powered software architecture, intelligent automation, data-driven systems and responsible AI.</p>
+      </div>
+    </div>
+  </section>
 
+  <section class="portfolio-section" aria-labelledby="projects-title">
+    <div class="portfolio-container">
+      <div class="portfolio-section-heading">
+        <p class="portfolio-section-label">Featured Projects</p>
+        <h2 id="projects-title">Selected work and current technical direction.</h2>
+      </div>
+      <div class="portfolio-project-grid">
+        <article class="portfolio-project">
+          <h3>Rdicom PACS</h3>
+          <p>Medical imaging in the cloud for radiology workflows, exam delivery and DICOM visualization.</p>
+          <a href="{{ site.rdicom_url }}">Visit Rdicom</a>
+        </article>
+        <article class="portfolio-project">
+          <h3>Software Engineering with Applied AI</h3>
+          <p>Repository for postgraduate studies, experiments and notes on applied AI in software engineering.</p>
+          <a href="https://github.com/robsonfagundes/engenharia-de-software-com-ia-aplicada-">View repository</a>
+        </article>
+        <article class="portfolio-project">
+          <h3>Technical Studies and Experiments</h3>
+          <p>Engineering notes, prototypes and repositories across software architecture, automation and web systems.</p>
+          <a href="{{ site.github_url }}">Explore GitHub</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio-section portfolio-section-muted" aria-labelledby="articles-title">
+    <div class="portfolio-container">
+      <div class="portfolio-section-heading portfolio-articles-heading">
+        <div>
+          <p class="portfolio-section-label">Articles</p>
+          <h2 id="articles-title">Technical Articles &amp; Legacy Blog</h2>
+          <p>Older articles from my JavaScript and web development journey.</p>
+        </div>
+      </div>
+      <div class="portfolio-article-list">
+        {% for post in site.posts limit:5 %}
+        <article class="portfolio-article">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+          <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+          <p>{{ post.content | strip_html | truncatewords: 28 }}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 </main>
