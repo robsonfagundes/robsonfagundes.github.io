@@ -940,15 +940,15 @@ pre
     font-weight: 700
 
 .portfolio-project
-  img
-    display: block
-    width: 100%
-    aspect-ratio: 16 / 9
-    object-fit: contain
-    margin: -6px 0 20px
-    border-radius: 6px
-    background: linear-gradient(135deg, rgba(15, 15, 23, 0.94), rgba(68, 37, 125, 0.22))
+  display: flex
+  min-height: 0
+  flex-direction: column
+  h3
+    margin-top: 0
+  p
+    flex: 1
   a
+    align-self: flex-start
     display: inline-block
     margin-top: 18px
     color: #bca7ff
@@ -958,6 +958,37 @@ pre
     &:focus
       color: #ffffff
       text-decoration: underline
+
+.portfolio-project-media
+  position: relative
+  overflow: hidden
+  height: 190px
+  margin: -6px 0 22px
+  border-radius: 6px
+  background: linear-gradient(135deg, rgba(15, 15, 23, 0.94), rgba(68, 37, 125, 0.22))
+  img
+    position: absolute
+    display: block
+    max-width: none
+    height: auto
+
+.portfolio-project-media-pacs img
+  left: 50%
+  bottom: 6px
+  width: 138%
+  transform: translateX(-50%)
+
+.portfolio-project-media-exams img
+  left: 50%
+  bottom: -26px
+  width: 112%
+  transform: translateX(-50%)
+
+.portfolio-project-media-portal img
+  left: 50%
+  top: 50%
+  width: 120%
+  transform: translate(-50%, -50%)
 
 .portfolio-articles-heading
   max-width: none
