@@ -1067,14 +1067,14 @@ pre
 .portfolio-articles-section
   position: relative
   overflow: hidden
-  background-image: linear-gradient(90deg, rgba(15, 15, 23, 0.98) 0%, rgba(15, 15, 23, 0.9) 48%, rgba(15, 15, 23, 0.76) 100%), linear-gradient(180deg, rgba(15, 15, 23, 0.72), rgba(15, 15, 23, 0.96)), url("/assets/images/portfolio/robson-scooter-racing.jpg")
-  background-position: center 42%
-  background-size: cover
+  background-image: linear-gradient(90deg, #0f0f17 0%, rgba(15, 15, 23, 0.92) 36%, rgba(15, 15, 23, 0.38) 74%, rgba(15, 15, 23, 0.72) 100%), linear-gradient(180deg, rgba(15, 15, 23, 0.5), rgba(15, 15, 23, 0.86)), url("/assets/images/portfolio/robson-scooter-racing.jpg")
+  background-position: center, center, 74% 44%
+  background-size: auto, auto, cover
   &:before
     content: ""
     position: absolute
     inset: 0
-    background: radial-gradient(circle at 72% 22%, rgba(134, 60, 215, 0.18), transparent 30%)
+    background: radial-gradient(circle at 74% 26%, rgba(134, 60, 215, 0.1), transparent 28%)
     pointer-events: none
   .portfolio-container
     position: relative
@@ -1090,6 +1090,8 @@ pre
   gap: 22px
   align-items: stretch
   padding: 22px
+  background: rgba(23, 23, 37, 0.86)
+  backdrop-filter: blur(6px)
   time
     display: block
     margin-bottom: 8px
