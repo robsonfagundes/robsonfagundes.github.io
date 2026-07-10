@@ -195,9 +195,16 @@ description: Software Engineer, entrepreneur and founder of Rdicom, building clo
       <div class="portfolio-article-list">
         {% for post in site.posts limit:5 %}
         <article class="portfolio-article">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-          <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-          <p>{{ post.content | strip_html | truncatewords: 28 }}</p>
+          {% if post.image %}
+          <a class="portfolio-article-image" href="{{ post.url | prepend: site.baseurl }}" aria-label="Read {{ post.title }}">
+            <img src="{{ post.image | prepend: site.baseurl }}" alt="" loading="lazy">
+          </a>
+          {% endif %}
+          <div class="portfolio-article-body">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+            <p>{{ post.content | strip_html | truncatewords: 28 }}</p>
+          </div>
         </article>
         {% endfor %}
       </div>

@@ -1069,6 +1069,10 @@ pre
   gap: 14px
 
 .portfolio-article
+  display: grid
+  grid-template-columns: 220px minmax(0, 1fr)
+  gap: 22px
+  align-items: stretch
   padding: 22px
   time
     display: block
@@ -1089,6 +1093,34 @@ pre
         color: #bca7ff
   p
     margin: 0
+
+.portfolio-article-image
+  position: relative
+  overflow: hidden
+  min-height: 145px
+  border-radius: 6px
+  background: linear-gradient(135deg, rgba(15, 15, 23, 0.94), rgba(68, 37, 125, 0.22))
+  text-decoration: none
+  img
+    display: block
+    width: 100%
+    height: 100%
+    min-height: 145px
+    object-fit: cover
+    transition: transform 180ms ease, opacity 180ms ease
+  &:after
+    content: ""
+    position: absolute
+    inset: 0
+    background: linear-gradient(180deg, transparent 36%, rgba(15, 15, 23, 0.28))
+    pointer-events: none
+  &:hover img,
+  &:focus img
+    opacity: 0.92
+    transform: scale(1.03)
+
+.portfolio-article-body
+  min-width: 0
 
 .portfolio-footer
   padding: 34px 0
@@ -1149,6 +1181,11 @@ pre
   .portfolio-card,
   .portfolio-project
     min-height: 0
+  .portfolio-article
+    grid-template-columns: 1fr
+  .portfolio-article-image,
+  .portfolio-article-image img
+    min-height: 190px
   .portfolio-actions
     align-items: stretch
     flex-direction: column
