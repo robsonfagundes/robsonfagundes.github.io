@@ -41,6 +41,8 @@ A rede é sequencial e possui camadas densas de 128, 64 e 32 neurônios, todas c
 
 No treinamento, utilizei o otimizador Adam, função de perda `binaryCrossentropy`, lotes de 32 exemplos e 100 épocas. O TensorFlow Visor permite acompanhar a evolução do modelo em tempo real.
 
+![Treinamento da rede neural do Neural Shop com as curvas de precisão e erro](/assets/article_images/neural-shop/neural-shop-treinamento.png)
+
 As curvas ajudam a tornar o aprendizado visível: a precisão se aproxima de 1 enquanto o erro cai ao longo das épocas. Como o conjunto de dados é pequeno e didático, esses números descrevem o ajuste aos dados de treinamento e não devem ser interpretados, isoladamente, como garantia de desempenho em produção.
 
 ## Uma arquitetura híbrida
