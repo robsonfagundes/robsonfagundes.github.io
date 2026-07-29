@@ -4,18 +4,20 @@ title:  "Solitaire AI: ensinando o navegador a jogar Paciência"
 date:   2026-07-27 10:00:00 -0300
 categories: inteligencia-artificial web-machine-learning
 tags: featured
-image: https://raw.githubusercontent.com/uzi88/js-solitaire/master/screen-shot.png
+image: /assets/article_images/solitaire-ai/solitaire-ai-tabuleiro.png
 ---
 
 Como fazer uma aplicação observar um jogo no navegador, entender o estado do tabuleiro, escolher uma jogada válida e executá-la automaticamente?
 
 Foi essa pergunta que guiou o **Solitaire AI**, projeto acadêmico que desenvolvi no módulo de **Web Machine Learning**, da Pós-graduação em Engenharia de Software com IA Aplicada, ministrada por **Erick Wendel**.
 
-![Tabuleiro do Solitaire utilizado no projeto de automação com JavaScript](https://raw.githubusercontent.com/uzi88/js-solitaire/master/screen-shot.png)
+![Tabuleiro do Solitaire AI antes do início da automação](/assets/article_images/solitaire-ai/solitaire-ai-tabuleiro.png)
 
 ## O projeto
 
 O ponto de partida do módulo foi o clássico Duck Hunt. Nesse tipo de jogo, o fluxo de automação é relativamente direto: capturar a tela, detectar um pato, converter a detecção em coordenadas e clicar no alvo.
+
+![Duck Hunt executando a detecção do alvo e exibindo as coordenadas previstas](/assets/article_images/solitaire-ai/duck-hunt-deteccao.png)
 
 Decidi aplicar o mesmo conceito ao Solitaire. O desafio ficou maior porque encontrar uma carta não é suficiente. A aplicação também precisa reconstruir as pilhas, respeitar as regras da Paciência, avaliar os movimentos possíveis e escolher uma ação que faça o jogo avançar.
 
@@ -88,6 +90,10 @@ A principal métrica é a `actionAccuracy`: a porcentagem de ações que realmen
 
 Como a versão atual utiliza o fallback determinístico, a `modelAccuracy` permanece como não disponível. Uma acurácia de visão computacional só poderia ser calculada corretamente com um modelo treinado e um conjunto independente de imagens rotuladas.
 
+![Solitaire AI em execução com o relatório periódico de métricas no console do navegador](/assets/article_images/solitaire-ai/solitaire-ai-metricas.png)
+
+Na execução acima, o console mostra o detector identificado como `development-fallback`, a acurácia das ações, os tempos de captura e inferência e a evolução da partida enquanto a IA movimenta as cartas.
+
 ## Principais aprendizados
 
 Este projeto mostrou, na prática, como diferentes componentes precisam trabalhar juntos para que uma aplicação perceba, decida e aja:
@@ -112,6 +118,8 @@ O projeto é uma demonstração acadêmica e possui limitações intencionais. O
 O próximo passo natural seria treinar um detector para reconhecer valores e naipes diretamente a partir das imagens. Como a fronteira do worker e o formato das predições já estão definidos, esse modelo poderia substituir o fallback sem exigir mudanças no solver ou no executor de ações.
 
 ## Conclusão
+
+![Solitaire AI após vencer a partida, com o relatório de vitória no console](/assets/article_images/solitaire-ai/solitaire-ai-vitoria.png)
 
 O Solitaire AI transformou um jogo conhecido em um laboratório de percepção, decisão e automação no navegador. O projeto conecta APIs modernas da Web, processamento paralelo, representação de estado, regras de negócio, heurísticas e métricas em um único ciclo executado inteiramente com JavaScript.
 
