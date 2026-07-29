@@ -125,4 +125,4 @@ O Solitaire AI transformou um jogo conhecido em um laboratório de percepção, 
 
 Mais do que ensinar uma máquina a clicar em cartas, o exercício mostrou como decompor um problema de IA em etapas verificáveis e como comunicar com clareza a diferença entre o que já foi implementado e o que ainda depende de um modelo treinado.
 
-O código-fonte e a documentação estão disponíveis no [repositório da Pós-graduação em Engenharia de Software com IA Aplicada](https://github.com/robsonfagundes/engenharia-de-software-com-ia-aplicada-/tree/main/modulo-04/vencendo-qualquer-jogo/js-solitaire-master).
+O código-fonte e a documentação estão disponíveis no [repositório do projeto](https://github.com/robsonfagundes/engenharia-de-software-com-ia-aplicada-/tree/main/01-fundamentos-de-ia-e-llms/modulo-04/vencendo-qualquer-jogo).
